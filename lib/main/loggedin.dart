@@ -12,7 +12,7 @@ class LoggedIn extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final user = FirebaseAuth.instance.currentUser;
-    final currentIndex = useState(0);
+    final currentIndex = useState(3);
     final screens = [
       const Home(),
       const Search(),

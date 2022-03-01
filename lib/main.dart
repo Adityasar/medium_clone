@@ -17,15 +17,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Medium Clone',
-        debugShowCheckedModeBanner: false,
-        themeMode: ThemeMode.system,
-        theme: ThemeData(
-          primaryColor: Colors.greenAccent[400],
-        ),
-        darkTheme: ThemeData.dark(),
-        home: const Scaffold(
-          body: AuthState(),
-        ));
+      title: 'Medium Clone',
+      debugShowCheckedModeBanner: false,
+      themeMode: ThemeMode.system,
+      theme: ThemeData.dark(),
+      home: const Scaffold(
+        body: AuthState(),
+      ),
+    );
   }
 }
